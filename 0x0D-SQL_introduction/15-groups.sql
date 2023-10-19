@@ -1,4 +1,6 @@
--- Répertorie tous les enregistrements de la table second_table de la base de données actuelle.
--- Le résultat doit afficher le score et le nom, classés par score.
+-- Lists the number of records with the same score in
+-- the table second_table of the current database.
+-- Result should display the score and the number of records
+-- for this score with the label number, ordered by score.
 
-SELECT `score`, `name` FROM `second_table` WHERE `name` IS NOT NULL ORDER BY `score` DESC;
+SELECT `score`, COUNT(*) AS `number` FROM `second_table` GROUP BY `score` ORDER BY `number` DESC;
