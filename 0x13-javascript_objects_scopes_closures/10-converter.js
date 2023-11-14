@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 /*
-Écrivez une fonction qui convertit un nombre de base 10 vers une autre base passée en argument :
+Écrivez une fonction qui convertit un nombre de base 10 vers une autre base passée en argument:
 
 Prototype : exports.converter = fonction (base)
 Vous n'êtes pas autorisé à importer un fichier
