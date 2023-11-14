@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 /*
-Écrivez une classe Square qui définit un carré et hérite de Square de 5-square.js :
+Écrivez une classe Square qui définit un carré et hérite de Square de 5-square.js:
 
 Vous devez utiliser la notation de classe pour définir votre classe et étend
 Créez une méthode d'instance appelée charPrint(c) qui imprime le rectangle en utilisant le caractère c
